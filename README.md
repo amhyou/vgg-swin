@@ -15,7 +15,21 @@ The project consists of several key components:
 - Python 3.8+
 - CUDA-compatible GPU (recommended for training)
 
-## Installation
+
+## Usage with Jupyter Notebook (Recommended) 
+
+For an interactive and user-friendly experience, use the provided Jupyter notebook that guides you through all steps:
+
+```bash
+# Open the master notebook
+jupyter notebook notebooks/master.ipynb
+```
+
+The notebook includes all the same steps as the command-line approach below, but in an interactive format perfect for experimentation.
+
+## Command-Line Usage
+
+If you prefer using the command line or need to automate the process, follow these steps:
 
 1. **Clone the repository:**
 ```bash
@@ -79,8 +93,6 @@ thesis/
 │   ├── raw/          # Raw dataset
 │   └── roi/          # ROI Isolated dataset
 ```
-
-## Usage
 
 ### Step 1: Data Preprocessing (Optional)
 If you have raw data and want to perform custom preprocessing:
