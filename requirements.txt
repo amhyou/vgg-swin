@@ -1,0 +1,7 @@
+tensorflow>=2.10
+opencv-python-headless
+pandas
+numpy
+tqdm
+kaggle
+jupyter
